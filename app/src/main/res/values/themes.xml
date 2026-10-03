@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.SplashImagenApp"
+        parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+    </style>
+    <style name="Theme.SplashImagenApp"
+        parent="Base.Theme.SplashImagenApp" />
+    <style name="Theme.SplashImagenApp.Starting"
+        parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">
+            @color/splash_background
+        </item>
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/logo_splash
+        </item>
+        <item name="postSplashScreenTheme">
+            @style/Theme.SplashImagenApp
+        </item>
+    </style>
+</resources>

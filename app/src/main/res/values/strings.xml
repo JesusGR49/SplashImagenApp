@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SplashImagenApp</string>
+    <string name="titulo_app">Aplicación iniciada</string>
+    <string name="mensaje_app">La imagen del SplashScreen fue configurada correctamente.</string>
+</resources>
